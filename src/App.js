@@ -13,7 +13,6 @@ function App() {
       <Content />
       <ProjectsAndExperiments />
       <Educations />
-      <Experiences />
     </div>
   );
 }

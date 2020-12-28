@@ -4,10 +4,16 @@
     margin-right: 10px;
 }
 
-.profilelink > a {
+.profilelink > p {
     font-weight: bold;
     font-size: 16px;
     margin-left: 5px;
     color: gray;
     text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.profilelink > p:hover {
+    color: blue;
 }

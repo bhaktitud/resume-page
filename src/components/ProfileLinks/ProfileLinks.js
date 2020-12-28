@@ -2,10 +2,16 @@ import React from 'react'
 import './ProfileLinks.css'
 
 const ProfileLinks = ({linkto, Icon, name}) => {
+    
+    const openLink = (linkTo) => {
+        const win = window.open(linkTo, "_blank");
+        win.focus();
+    }
+
     return (
         <div className='profilelink'>
             <Icon />
-            <a href={linkto} target='__blank'>{name}</a>
+            <p onClick={() => openLink(linkto)}>{name}</p>
         </div>
     )
 }

@@ -1,0 +1,47 @@
+[
+    {
+        "placeName":"PT. Nashta Global Utama",
+        "location": "Jakarta",
+        "major": "Front End Developer",
+        "years": "2020 - present",
+        "description": "Pengembangan & Re-Engineering Sistem Bea & Cukai, CEISA 4.0 (Modul: Manifest). CRUD Data Manifest (Pengangkut & NVOCC) Portal Pengguna Jasa. Integrasi Google Maps untuk monitoring dan tracking data AWB & Container (Google Maps & Geocode). Implementasi QR-Code untuk kemudahan user dalam mengelola data. Implementasi UI menggunakan React Js dengan CSS Framework Ant Design. Integrasi Back End REST Full API. Implementasi Micro-Front End. Komunikasi langsung dengan User (Petugas Bea Cukai) dan Analis. mengenai progress dan kendala",
+        "type": "job",
+        "logo":"https://nashta.co.id/wp-content/uploads/2020/06/logo-construction3.png"
+    },
+    {
+        "placeName":"PT. Guriang Idea Cipta",
+        "location": "Bandung",
+        "major": "Teknik Sipil",
+        "years": "2017-2019",
+        "description": "Oversee and assist the team in solving technical problems both in the office or in the field. Oversee and assist the team in conducting construction design and structural analysis. Assist and prepare reports on the results of technical planning design.",
+        "type": "job",
+        "logo":""
+    },
+    {
+        "placeName":"Technische Universitaet Dresden",
+        "location": "Germany",
+        "major": "Advaced Computational Civil Engineering and Structural Studies",
+        "years": "2014-2017",
+        "description": "",
+        "type": "school",
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logo_TU_Dresden.svg/2000px-Logo_TU_Dresden.svg.png"
+    },
+    {
+        "placeName":"Universitas Kristen Maranatha",
+        "location": "Bandung",
+        "major": "Double Degree (Teknik Sipil & Sistem Informasi)",
+        "years": "2008-2012",
+        "description": "",
+        "type": "school",
+        "logo":"https://mpng.subpng.com/20190319/yoo/kisspng-maranatha-christian-university-logo-organization-k-5c917de6ec24b1.0478153815530388229673.jpg"
+    },
+    {
+        "placeName":"SMA BPI 3",
+        "location": "Bandung",
+        "major": "Ilmu Pengetahuan Alam",
+        "years": "2004-2007",
+        "description": "I love science, love the atmosphere, the moment I will not forget...",
+        "type": "school",
+        "logo":""
+    }
+]

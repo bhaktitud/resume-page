@@ -29,7 +29,9 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    background: wheat;
 }
+
 .content__leftIcons {
     display: flex;
     align-content: center;

@@ -1,0 +1,72 @@
+[
+    {
+        "imageUrl": "https://i.ibb.co/27Xzr20/Linked-In-Clone.png", 
+        "authorImage":"https://media-exp1.licdn.com/dms/image/C5603AQFMZJdbgdYAUg/profile-displayphoto-shrink_200_200/0/1592450767136?e=1614816000&v=beta&t=mqLgf7f6HAaCM3QBZycbGpc4c1fpqk-c69LRT8LDW6g", 
+        "authorName":"Bhakti Budiman Novanda", 
+        "title":"LinkedIn Clone", 
+        "timestamp":"12/27/2020", 
+        "description":"",
+        "projectLink":"https://linkedin-clone-de403.web.app",
+        "githubLink": "https://github.com/bhaktitud/linkedin-clone"
+    },
+    {
+        "imageUrl": "https://i.ibb.co/Rc7BnmG/React-App.png", 
+        "authorImage":"https://media-exp1.licdn.com/dms/image/C5603AQFMZJdbgdYAUg/profile-displayphoto-shrink_200_200/0/1592450767136?e=1614816000&v=beta&t=mqLgf7f6HAaCM3QBZycbGpc4c1fpqk-c69LRT8LDW6g", 
+        "authorName":"Bhakti Budiman Novanda", 
+        "title":"Youtube Clone", 
+        "timestamp":"12/28/2020", 
+        "description":"",
+        "projectLink":"https://clone-300003.web.app/",
+        "githubLink": "https://github.com/bhaktitud/youtube-clone"
+    },
+    {
+        "imageUrl": "https://i.ibb.co/wBnnMhw/React-Commerce.png", 
+        "authorImage":"https://media-exp1.licdn.com/dms/image/C5603AQFMZJdbgdYAUg/profile-displayphoto-shrink_200_200/0/1592450767136?e=1614816000&v=beta&t=mqLgf7f6HAaCM3QBZycbGpc4c1fpqk-c69LRT8LDW6g", 
+        "authorName":"Bhakti Budiman Novanda", 
+        "title":"Phone Commerce", 
+        "timestamp":"06/11/2020", 
+        "description":"",
+        "projectLink":"https://phone-commerce.netlify.app/",
+        "githubLink": "https://github.com/bhaktitud/phone-commerce"
+    },
+    {
+        "imageUrl": "https://i.ibb.co/MfKbh1h/Home-Bhakti-Dev.png", 
+        "authorImage":"https://media-exp1.licdn.com/dms/image/C5603AQFMZJdbgdYAUg/profile-displayphoto-shrink_200_200/0/1592450767136?e=1614816000&v=beta&t=mqLgf7f6HAaCM3QBZycbGpc4c1fpqk-c69LRT8LDW6g", 
+        "authorName":"Bhakti Budiman Novanda", 
+        "title":"Personal Blog", 
+        "timestamp":"04/25/2020", 
+        "description":"",
+        "projectLink":"https://www.bhaktidev.com/",
+        "githubLink": "https://github.com/bhaktitud/personal-blog"
+    },
+    {
+        "imageUrl": "https://i.ibb.co/8BbjGHb/Fancy-Todo-List.png", 
+        "authorImage":"https://media-exp1.licdn.com/dms/image/C5603AQFMZJdbgdYAUg/profile-displayphoto-shrink_200_200/0/1592450767136?e=1614816000&v=beta&t=mqLgf7f6HAaCM3QBZycbGpc4c1fpqk-c69LRT8LDW6g", 
+        "authorName":"Bhakti Budiman Novanda", 
+        "title":"Fancy Todo", 
+        "timestamp":"04/25/2020", 
+        "description":"",
+        "projectLink":"https://hungry-almeida-d7b58d.netlify.app/",
+        "githubLink": "https://github.com/bhaktitud/todo-app"
+    },
+    {
+        "imageUrl": "https://i.ibb.co/rbynNqz/React-App-1.png", 
+        "authorImage":"https://media-exp1.licdn.com/dms/image/C5603AQFMZJdbgdYAUg/profile-displayphoto-shrink_200_200/0/1592450767136?e=1614816000&v=beta&t=mqLgf7f6HAaCM3QBZycbGpc4c1fpqk-c69LRT8LDW6g", 
+        "authorName":"Bhakti Budiman Novanda", 
+        "title":"Dashboard Manager", 
+        "timestamp":"12/15/2020", 
+        "description":"",
+        "projectLink":"https://youthful-pasteur-44621a.netlify.app/",
+        "githubLink": "https://github.com/bhaktitud/dashboard"
+    },
+    {
+        "imageUrl": "https://s2.gifyu.com/images/chrome-capture-1fb7e726c65d7fec2.md.gif", 
+        "authorImage":"https://media-exp1.licdn.com/dms/image/C5603AQFMZJdbgdYAUg/profile-displayphoto-shrink_200_200/0/1592450767136?e=1614816000&v=beta&t=mqLgf7f6HAaCM3QBZycbGpc4c1fpqk-c69LRT8LDW6g", 
+        "authorName":"Bhakti Budiman Novanda", 
+        "title":"Sudoku", 
+        "timestamp":"01/31/2020", 
+        "description":"",
+        "projectLink":"https://bhaktitud.github.io",
+        "githubLink": "https://github.com/bhaktitud/bhaktitud.github.io"
+    }
+]

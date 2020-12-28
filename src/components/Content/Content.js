@@ -1,4 +1,4 @@
-import { AccountTree, CastForEducation, GitHub, LinkedIn, Person, Work } from '@material-ui/icons'
+import { Facebook, GitHub, LinkedIn } from '@material-ui/icons'
 import React from 'react'
 import PageButtons from '../PageButtons/PageButtons'
 import ProfileLinks from '../ProfileLinks/ProfileLinks'
@@ -17,18 +17,18 @@ function Content() {
                 <h1 className='content__leftName'>Bhakti Budiman Novanda</h1>
                 <h3>Front-End Developer</h3>
                 <div className='content__leftIcons'>
-                    <ProfileLinks Icon={LinkedIn} name='LinkedIn' linkto='#' />
-                    <ProfileLinks Icon={GitHub} name='Gitlab' linkto='#' />
-                    <ProfileLinks Icon={GitHub} name='Github' linkto='#' />
+                    <ProfileLinks Icon={LinkedIn} name='LinkedIn' linkto='https://www.linkedin.com/in/bhaktibudimannovanda/' />
+                    <ProfileLinks Icon={Facebook} name='Facebook' linkto='https://www.facebook.com/bhakti.fg' />
+                    <ProfileLinks Icon={GitHub} name='Github' linkto='https://github.com/bhaktitud' />
                 </div>
                 <p>All rights reserved 2020, this page built with 1% react & 99% love</p>
             </div>
 
             <div className='content__right'>
                 <div className='content__rightButtons'>
-                    <PageButtons image={projectExp} title='Project & Experiments'/>
-                    <PageButtons image={education} title='Educations'/>
-                    <PageButtons image={exp} title='Experiences'/>
+                    <PageButtons linkto='projectsAndExperiments' image={projectExp} title='Project & Experiments'/>
+                    <PageButtons linkto='educations' image={education} title='Educations'/>
+                    {/* <PageButtons linkto='experiences' image={exp} title='Experiences'/> */}
                 </div>
 
             </div>
