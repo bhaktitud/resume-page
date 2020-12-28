@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: lightgray;
+    box-shadow: 0 10px 10px -5px grey;
+    position: sticky;
+    top: 0;
+}
+
+.header > img {
+    object-fit: contain;
+    height: 50px;
+    border-radius: 50%;
+}

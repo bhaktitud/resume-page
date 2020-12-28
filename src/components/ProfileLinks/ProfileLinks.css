@@ -1,0 +1,13 @@
+.profilelink {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.profilelink > a {
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 5px;
+    color: gray;
+    text-decoration: none;
+}
