@@ -15,6 +15,7 @@ import { GitHub, OpenInNew } from '@material-ui/icons'
 import { emphasize } from "@material-ui/core/styles/colorManipulator";
 import './ProjectsCard.css'
 import moment from 'moment'
+import { motion } from 'framer-motion';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -65,8 +66,16 @@ const RecipeReviewCard = ({
     win.focus();
   }
 
+  const item = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1
+    }
+  };
+
   return (
-    <Card className={classes.root}>
+    <motion.div whileHover={{scale: 1.05}} className="motiondiv__card" variants={item}>
       <CardHeader
         avatar={
           <Avatar src={authorImage} aria-label="project" className={classes.avatar} />
@@ -85,9 +94,9 @@ const RecipeReviewCard = ({
         title={imageUrl}
       />
       <CardContent>
-        <Typography variant="body2" color="textSecondary" component="p">
+        <p className="timelinebody_description">
           {description}
-        </Typography>
+        </p>
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="open github" onClick={() => openGithub(githubLink)}>
@@ -97,7 +106,7 @@ const RecipeReviewCard = ({
           <ShareIcon />
         </IconButton>
       </CardActions>
-    </Card>
+    </motion.div>
   );
 }
 

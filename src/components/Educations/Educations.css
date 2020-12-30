@@ -7,6 +7,11 @@
     padding-top: 68px;
     align-content: center;
     align-items: center;
+    /* background-image: linear-gradient(rgba(110, 110, 110, 0.5), rgba(245, 245, 245, 0.774)), url('../../images/undraw_education_f8ru.svg'); */
+    background-image: linear-gradient(rgba(110, 110, 110, 0.5), rgba(245, 245, 245, 0.774));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .timeline {
@@ -18,14 +23,32 @@
     min-width: 50vw;
 }
 
+.timeline_itemMajor {
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 10px;
+}
+
 .timeline_itemDescription {
     font-size: 14px !important;
+    font-weight: 500 !important;
 }
 
 .timeline_paperTop {
-    display: flex;
+    /* display: flex; */
     padding: 10px;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+}
+
+.timeline_paperbody {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.educations__title {
+    font-family: 'Prompt', sans-serif;
+    font-size: 45px;
 }

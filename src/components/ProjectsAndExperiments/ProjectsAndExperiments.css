@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Prompt:wght@300&display=swap');
+
 .projectsAndExperiments {
     display: flex;
     flex-direction: column;
@@ -7,6 +9,10 @@
     padding-top: 68px;
     align-content: center;
     align-items: center;
+    background-image: linear-gradient(rgba(245, 245, 245, 0.774), rgba(110, 110, 110, 0.5)), url('../../images/undraw_Designer_by46.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .projectsAndExperiments_timeline {
@@ -16,4 +22,9 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+}
+
+.projectsAndExperiments__title {
+    font-family: 'Prompt', sans-serif;
+    font-size: 45px;
 }

@@ -5,7 +5,7 @@
         "authorName":"Bhakti Budiman Novanda", 
         "title":"LinkedIn Clone", 
         "timestamp":"12/27/2020", 
-        "description":"",
+        "description":"Another in-depth theory of redux, css, firebase cloud store and firebase authentication",
         "projectLink":"https://linkedin-clone-de403.web.app",
         "githubLink": "https://github.com/bhaktitud/linkedin-clone"
     },
@@ -15,9 +15,19 @@
         "authorName":"Bhakti Budiman Novanda", 
         "title":"Youtube Clone", 
         "timestamp":"12/28/2020", 
-        "description":"",
+        "description":"I achieved another css and api integration knowledge by building this Youtube - clone",
         "projectLink":"https://clone-300003.web.app/",
         "githubLink": "https://github.com/bhaktitud/youtube-clone"
+    },
+    {
+        "imageUrl": "https://i.ibb.co/xhffKhW/React-App-2.png", 
+        "authorImage":"https://media-exp1.licdn.com/dms/image/C5603AQFMZJdbgdYAUg/profile-displayphoto-shrink_200_200/0/1592450767136?e=1614816000&v=beta&t=mqLgf7f6HAaCM3QBZycbGpc4c1fpqk-c69LRT8LDW6g", 
+        "authorName":"Bhakti Budiman Novanda", 
+        "title":"Spotify Clone", 
+        "timestamp":"12/20/2020", 
+        "description":"I achieved another css and api integration knowledge by building this Spotify - clone",
+        "projectLink":"https://spotify-clone-7a42a.web.app/",
+        "githubLink": "https://github.com/bhaktitud/spotify-clone"
     },
     {
         "imageUrl": "https://i.ibb.co/wBnnMhw/React-Commerce.png", 
@@ -25,7 +35,7 @@
         "authorName":"Bhakti Budiman Novanda", 
         "title":"Phone Commerce", 
         "timestamp":"06/11/2020", 
-        "description":"",
+        "description":"Learn in-depth of react hooks useContext and apply the Paypal Sandbox to mimic the real payment of Paypal",
         "projectLink":"https://phone-commerce.netlify.app/",
         "githubLink": "https://github.com/bhaktitud/phone-commerce"
     },
@@ -35,7 +45,7 @@
         "authorName":"Bhakti Budiman Novanda", 
         "title":"Personal Blog", 
         "timestamp":"04/25/2020", 
-        "description":"",
+        "description":"Exploration of GatsbyJS, the idea was to create a blog with netlify cms so that i can share my thoughts to others in my own platform",
         "projectLink":"https://www.bhaktidev.com/",
         "githubLink": "https://github.com/bhaktitud/personal-blog"
     },
@@ -45,7 +55,7 @@
         "authorName":"Bhakti Budiman Novanda", 
         "title":"Fancy Todo", 
         "timestamp":"04/25/2020", 
-        "description":"",
+        "description":"Initial experience of using react js and redux concept",
         "projectLink":"https://hungry-almeida-d7b58d.netlify.app/",
         "githubLink": "https://github.com/bhaktitud/todo-app"
     },
@@ -55,7 +65,7 @@
         "authorName":"Bhakti Budiman Novanda", 
         "title":"Dashboard Manager", 
         "timestamp":"12/15/2020", 
-        "description":"",
+        "description":"Created with ant-design as an assignment of AVANA recruitment process",
         "projectLink":"https://youthful-pasteur-44621a.netlify.app/",
         "githubLink": "https://github.com/bhaktitud/dashboard"
     },
@@ -65,7 +75,7 @@
         "authorName":"Bhakti Budiman Novanda", 
         "title":"Sudoku", 
         "timestamp":"01/31/2020", 
-        "description":"",
+        "description":"first time using html, css and javascript. Pretty basic..",
         "projectLink":"https://bhaktitud.github.io",
         "githubLink": "https://github.com/bhaktitud/bhaktitud.github.io"
     }

@@ -3,17 +3,24 @@
 .content {
     display: flex;
     background-color: whitesmoke;
-    min-height: 93vh;
+    min-height: 95vh;
     height: 93vh;
+    position: relative;
+    text-align: center;
+    /* background: linear-gradient(rgba(110, 110, 110, 0.5), rgba(245, 245, 245, 0.774)), url('../../images/undraw_online_cv_qy9w.svg'); */
+    background: linear-gradient(rgba(110, 110, 110, 0.5), rgba(245, 245, 245, 0.774));
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
 }
 
 .content__left {
+    
     flex: 0.5;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    text-align: center;
 }
 
 .content__left > p {
@@ -29,7 +36,7 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    background: wheat;
+    /* background: wheat; */
 }
 
 .content__leftIcons {

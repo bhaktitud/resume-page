@@ -3,14 +3,14 @@
     justify-content: center;
     padding: 5px;
     background-color: whitesmoke;
-    box-shadow: 0 10px 10px -5px grey;
+    /* box-shadow: 0 10px 10px -5px grey; */
     position: sticky;
     top: 0;
     z-index: 999;
+    background-image: linear-gradient(rgba(245, 245, 245, 0.774), rgba(110, 110, 110, 0.5) );
 }
 
 .header > img {
     object-fit: contain;
     height: 50px;
-    border-radius: 50%;
 }

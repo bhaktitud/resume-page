@@ -17,10 +17,10 @@ import { Avatar, Card } from '@material-ui/core';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
+import { motion } from 'framer-motion';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
-    padding: '6px 16px',
     minHeight: 150,
     // height: 250
   },
@@ -39,7 +39,8 @@ const useStyles = makeStyles((theme) => ({
   title: {
     fontSize: 20,
     fontWeight: 'bold',
-    marginLeft: 10
+    marginLeft: 10,
+    color: 'grey'
   },
   subtitle:{
     fontSize:15
@@ -52,12 +53,20 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
+const item = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1
+  }
+};
+
 function Educations() {
     const classes = useStyles();
     const bull = <span className={classes.bullet}>•</span>;
     return (
         <div className='educations'>
-            <h1>Education and Job History</h1>
+            <h1 className="educations__title">Education and Job History</h1>
             <Timeline align="alternate" className='timeline'>
                 {
                     data?.map((item, i) => (
@@ -69,24 +78,25 @@ function Educations() {
                             </Typography>
                             </TimelineOppositeContent>
                             <TimelineSeparator>
-                            <TimelineDot color="primary" variant='outlined'>
-                                {item.type === 'school' && <School />}
-                                {item.type === 'job' && <Work />}
-                            </TimelineDot>
-                            <TimelineConnector />
+                              <TimelineDot color="primary" variant='outlined'>
+                                  {item.type === 'school' && <School />}
+                                  {item.type === 'job' && <Work />}
+                              </TimelineDot>
+                              <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
                             <Paper elevation={3} className={classes.paper} >
-                                <div className='timeline_paperTop'>
-                                    <Avatar src={item.logo} />
-                                    <Typography className={classes.title} color="textSecondary" gutterBottom>
+                                <motion.div className='timeline_paperTop'>
+                                    <Typography className={classes.title} gutterBottom>
                                         {item.placeName}
                                     </Typography>
-                                </div>
-                                <Typography className={classes.subtitle} color="textSecondary" gutterBottom>
-                                    {item.major}
-                                </Typography>
-                                <Typography className='timeline_itemDescription'>{item.description}</Typography>
+                                </motion.div>
+                                <motion.div className="timeline_paperbody">
+                                  <p className="timeline_itemMajor">
+                                      {item.major.toUpperCase()}
+                                  </p>
+                                  <p className='timeline_itemDescription'>{item.description}</p>
+                                </motion.div>
                             </Paper>
                             </TimelineContent>
                         </TimelineItem>
